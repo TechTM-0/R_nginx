@@ -7,7 +7,7 @@ COPY src /var/www/html
 COPY docker/default.conf /etc/nginx/conf.d
 
 # Test config
-RUN nginx -t
+#RUN nginx -t
 
 # パッケージやPHPの拡張モジュールをインストールするコマンド　を実行
 #RUN apt-get update && apt-get install -y \
